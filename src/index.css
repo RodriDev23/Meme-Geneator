@@ -1,0 +1,133 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body{
+  font-family:'Inter', sans-serif;
+}
+
+
+.App{
+  height: 900px;
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 50px;
+  border: 1px solid red;
+  text-align: center;
+}
+
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  padding-left: 20px;
+  color: white;
+  padding-bottom: 25px;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+}
+
+.nav > img {
+  margin-top: 10px;
+  width: 70px;
+  height: 70px;
+}
+
+.nav > h2 {
+  padding-left: 10px;
+  font-weight: 500;
+}
+
+.nav > h3 {
+  padding-left: 350px;
+}
+
+.content{
+  display: flex;
+  flex-direction:row;
+  margin-left: 260px;
+  margin-top: 100px;
+  padding-top: 20px;
+}
+
+.content > input {
+  padding-top: 13px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 230px;
+  height: 35px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.input-uno{
+  margin-right: 300px;
+  margin-left: -230px;
+}
+
+.button {
+position: relative;
+width: 477px;
+height: 75px;
+margin-top: 90px;
+margin-left: 0px;
+background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+color: white;
+font-family: 'Inter', sans-serif;
+font-size: 17px;
+border-radius: 10px;
+cursor: pointer;
+}
+
+
+
+
+.meme--image{
+  width: 400px;
+  height: 400px;
+  margin-top: 50px;
+  position: relative;
+}
+
+
+
+.meme--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:
+      2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      0 2px 0 #000,
+      2px 0 0 #000,
+      0 -2px 0 #000,
+      -2px 0 0 #000,
+      2px 2px 5px #000;
+}
+
+
+.meme {
+  position: relative;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 50px;
+}
